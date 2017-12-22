@@ -10,7 +10,7 @@ int main()
     cin >> a;
     cout << "Vvedite vtoroe chislo: ";
     cin >> b;
-    cout << "Viberite operaciju: :";
+    cout << "Viberite operaciju: 1-(+), 2-(-), 3-(*), 4-(/):";
     cin >> c;
   switch (c) 
   {
@@ -35,7 +35,7 @@ int main()
 		break;
 	}
 	default:
-		cout << "GG" << endl;
+		cout << "error" << endl;
 	return 0;
 	}
 }
